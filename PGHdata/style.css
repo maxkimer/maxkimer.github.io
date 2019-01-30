@@ -9,5 +9,6 @@ body {
   font-size: 130%;
   }
 p {
-  width: 75%
+  width: 75%;
+  line-height: 1.2;
   }
