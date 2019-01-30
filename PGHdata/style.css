@@ -1,10 +1,13 @@
 .header {
   background: #FFF23F;
   font-family: helvetica;
-  font-size: 150%;
+  font-size: 160%;
   }
 body {
   background-color: lightgrey;
   font-family: veranda;
-  font-size: 110%;
+  font-size: 130%;
+  }
+p {
+  width: 75%
   }
