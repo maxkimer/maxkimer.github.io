@@ -9,13 +9,36 @@ title: Home
 </head>
   <div id="most_important">
   <body>
-    {% include navbar.html %}
-    <div class="jumbotron">
-      <div class="container">
-        <h1 class="display-4">Max Kimer's Webpage</h1>
-        <p class="lead">By Max Kimer, Sarah LaBouliere, and Noah Scholfield</p>
-      </div>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Max Kimer's PDC Website</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div id="navbar" class="navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item {% if page.title == 'Home' %}active{% endif %}">
+        <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item {% if page.title == 'Homework' %}active{% endif %}">
+        <a class="nav-link" href="/homework">Homework</a>
+      </li>
+      <li class="nav-item {% if page.title == 'PGH Dataset' %}active{% endif %}">
+        <a class="nav-link" href="/PGHdata">PGH Dataset Project</a>
+      </li>
+      <li class="nav-item {% if page.title == 'skills' %}active{% endif %}">
+        <a class="nav-link" href="/skills">Skills Project</a>
+      </li>
+      <li class="nav-item {% if page.title == 'PGHdata2' %}active{% endif %}">
+        <a class="nav-link" href="/PGHdata2">Revised PGH Project</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
     <p>If you are looking for my homework page, click here: <a href="/homework">HOMEWORK</a><br />
       If you are looking for my Pittsburgh Data Set Project, click here: <a href="/PGHdata">PGH DATA</a><br />
       If you are looking for my Skillz Project, click here: <a href="/SKILLS">Skillz Project</a></br />
