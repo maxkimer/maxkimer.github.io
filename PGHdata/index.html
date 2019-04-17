@@ -12,13 +12,37 @@ title: PGH dataset
    </div>
  </head>
   <body>
-   <div class="shift">
-    <p>Didn't mean to come here? Other pages listed below:
-     <ul>
-      <li><a href="../">Homepage</a></li>
-      <li><a href="../homework">Homework</a></li>
-      <li><a href="../SKILLS">Skills Project</a></li>
-    </ul></p>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Max Kimer's PDC Website</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div id="navbar" class="navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item {% if page.title == 'Home' %}active{% endif %}">
+        <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item {% if page.title == 'Homework' %}active{% endif %}">
+        <a class="nav-link" href="/homework">Homework</a>
+      </li>
+      <li class="nav-item {% if page.title == 'PGH Dataset' %}active{% endif %}">
+        <a class="nav-link" href="/PGHdata">PGH Dataset Project</a>
+      </li>
+      <li class="nav-item {% if page.title == 'skills' %}active{% endif %}">
+        <a class="nav-link" href="/skills">Skills Project</a>
+      </li>
+      <li class="nav-item {% if page.title == 'PGHdata2' %}active{% endif %}">
+        <a class="nav-link" href="/PGHdata2">Revised PGH Project</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>   
+
    <p>Since the NFL’s establishment in 1920 there have been debates, arguments, even fights between followers between teams. On any given Sunday during football season, you could go on social media platforms like Instagram and see fights between home and away fans in the stands posted by sports media outlets like Barstool. This behavior can be seen across all sports, from the World Cup to Jimmy’s dad arguing with an umpire at the local 10-and-under exhibition baseball game. Pittsburgh, known for bleeding black and gold, is notorious for being a difficult city to play in for the away team. According to the Washington Post, Heinz Field is an equally dangerous place for visiting fans to support their teams logging 16.8 arrests per game putting them #5 among all 32 NFL teams [1]. In the new age of technology these incidents rarely go undocumented, Heinz can be a dangerous place for even Steelers fans [2]. 
    </p>
    <p>In recent years the NFL has been increasing stadium security as well as planting more undercover police in the stands to prevent potential fights and riots [3], but what about outside the stadium? Over the past three seasons, 2016-2018, there have been 581 arrests made on days that the Steelers play between the Northshore, Downtown, and Southside, all popular places to tailgate or watch the game with friends at a sports bar. 
