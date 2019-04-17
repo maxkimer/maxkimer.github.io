@@ -6,19 +6,19 @@
 
   <div id="navbar" class="navbar-collapse">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item {% if page.title == 'Home' %}active{% endif %}">
         <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {% if page.title == 'Homework' %}active{% endif %}">
         <a class="nav-link" href="/homework">Homework</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {% if page.title == 'PGH Dataset' %}active{% endif %}">
         <a class="nav-link" href="/PGHdata">PGH Dataset Project</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {% if page.title == 'skills' %}active{% endif %}">
         <a class="nav-link" href="/skills">Skills Project</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {% if page.title == 'PGHdata2' %}active{% endif %}">
         <a class="nav-link" href="/PGHdata2">Revised PGH Project</a>
       </li>
     </ul>
