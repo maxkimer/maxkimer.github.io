@@ -1,0 +1,85 @@
+---
+title: skills
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kimer's Skills Project</title>
+  <meta charset="utf-8" />
+
+  <link type="text/css" rel="stylesheet" href="dist/css/bootstrap.min.css" />
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Max Kimer's PDC Website</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div id="navbar" class="navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item {% if page.title == 'Home' %}active{% endif %}">
+        <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item {% if page.title == 'Homework' %}active{% endif %}">
+        <a class="nav-link" href="/homework">Homework</a>
+      </li>
+      <li class="nav-item {% if page.title == 'PGH Dataset' %}active{% endif %}">
+        <a class="nav-link" href="/PGHdata">PGH Dataset Project</a>
+      </li>
+      <li class="nav-item {% if page.title == 'skills' %}active{% endif %}">
+        <a class="nav-link" href="/SKILLS">Skills Project</a>
+      </li>
+      <li class="nav-item {% if page.title == 'PGHdata2' %}active{% endif %}">
+        <a class="nav-link" href="/PGHdata2">Revised PGH Project</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Learning Log Template</h1>
+            <table class="table table-bordered">
+            <tr><th class="bg-primary text-white">Start time/date</th><th class="bg-primary text-white">End time/date</th><th class="bg-primary text-white">Description of focus</th><th class="bg-primary text-white">Notes on process</th>
+            <tr><td>2/9/19 12:30pm</td><td>2/9/19 1:30pm</td><td>Downloading and reading up on python</td><td>Downloaded python 2, then python 3, then anaconda navigator</td></tr>
+            <tr><td>2/11/19 3:30pm</td><td>2/11/19 5:30pm</td><td>Read up on libraries, differences between python 2/3, basic syntax and testing code in jupyter</td><td>After understanding these concepts I began toying around in jupyter with print functions</td></tr>
+            <tr><td>2/14/19 12pm</td><td>2/14/19 2pm</td><td>Variable assign, strings and integers, and modifying variables</td><td>Notes from W3schools and the like, testing with print and editing with len(), operators, etc</td></tr>
+            <tr><td>2/16/19 2:30pm</td><td>2/16/19 5:30pm</td><td>Logical operations, lists</td><td>Notes on if/else functions, test assigning/changing lists using append, insert, and loops</td></tr>
+            <tr><td>2/17/19 6pm</td><td>2/17/19 8:30pm</td><td>Functions and Loops</td><td>Python tutorial video, play around with basic functions and adding for loops. Light reading on recursion. </td></tr>
+            <tr><td>2/18/19 11:30am</td><td>2/18/19 2pm</td><td>User input, logic, and various input error checks</td><td>Tutorial video, notes, play around with user input and how to ensure input is what was asked</td></tr>
+            <tr><td>2/20/19 4:30pm</td><td>2/20/19 6pm</td><td>Matplotlib importing, syntax</td><td>Video on how to activate matplotlib, how data should be set up for graphing</td></tr>
+            <tr><td>2/21/19 12pm</td><td>2/21/19 3:30pm</td><td>Plot testing, line graphs, linear regression</td><td>Adding style to plots using matplotlib tutorial site</td></tr>
+            <tr><td>2/22/19 12:30pm</td><td>2/22/19 2:30pm</td><td>Bar charts, numbpy</td><td>Matplotlib tutorial site, play around with making various plots with styles</td></tr>
+            </table>
+        </div>
+     </div>
+  </div>
+ </div>
+ <p>
+ My showcase item is unable to be presented via github, but my script can be found in <a href="https://github.com/maxkimer/maxkimer.github.io">my repository</a> under the Skills project folder. If you use python check it out I worked real hard to make it fun while incorporating my subskills.
+ </p>
+<p>My sources list:
+<ul>
+  <li><a href="https://www.w3schools.com/PYTHON/default.asp">W3Schools</a></li>
+  <li><a href="https://www.tutorialspoint.com/python/">Tutorials Point</a></li>
+  <li><a href="https://www.youtube.com/watch?v=9Os0o3wzS_I">Functions Video</a></li>
+  <li><a href="https://www.youtube.com/watch?v=kcdyxT3se1Y">User Input Video</a></li>
+  <li><a href="https://www.youtube.com/watch?v=zFvoXxeoosI">Loops Video</a></li>
+  <li><a href="https://www.learnpython.org/">Learn Python</a></li>
+  <li><a href="https://www.youtube.com/watch?v=q7Bo_J8x_dw">MATPLOTLIB Video</a></li>
+  <li><a href="https://matplotlib.org/tutorials/index.html">MATPLOTLIB Tutorial</a></li>
+</ul>
+</p>
+  <!-- JavaScript -->
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="dist/js/bootstrap.js"></script>
+
+</body>
+</html>
